@@ -1,115 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Portfolio Website Title and styling links -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Home | Ethan Portfolio</title>
+  <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
+
 <body>
-  <!-- main logo / nav -->
+  <!-- Title and navigation links to Portfolio website sections display below -->
+
   <header>
-    <h1>Lernantino</h1>
+    <h1>Ethan Hale Portfolio</h1>
     <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-      <!-- Link this to your resume! -->
-      <a href="#">Resume</a>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+      <li><a href="https://www.linkedin.com/in/ethan-hale-055122263/" target="_blank">Resume</a></li>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
+  <!-- Hero photo and subtitle  -->
+  <section class="hero" role="img" aria-label="Welcome banner">
+    <h2>Welcome to my coding world!</h2>
   </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div>
-        <p>
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
-          plaid
-          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
-          Carles you
-          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
-          paleo
-          scenester
-        </p>
-        <p>
-          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
-          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
-          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
-          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
-          heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
+  <main>
+    <!-- About me information and profile photo-->
+    <section id="about-me" class="box-info">
+      <header>
+        <h2>About <br>Me</h2>
+      </header>
+      </section class="content">
+        <img src="./assets/images/Edogpfp.png" alt="Ethan Avatar"/>
+        <div>
+          <p>Determined and productive web developer with a passion for creative solutions.</p>
+          <p>Proficient in JavaScript, CSS and HTML.</p>
+          <p>Dedicated to learn additional technologies and coding languages,</p>
+          <p>(currently enrolled in a Coding Bootcamp with Michigan State University).</p>
+          <p>I have an excellent familiarity with Microsoft Office and Audio-Visual equipment.</p>
+          <p>Looking forward to learning more and expand my skills on Website and Mobile Apps design.</p>
+        </div>
+      </section>
     </section>
-
-    <!-- portfolio container
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="flex-container">
-
-        <a href="#" class="flex-item surf-report">
-          <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-        
-        <a href="#" class="flex-item led-wall">
-          <div>
-            <h3>LED Wall</h3>
-            <span>Node/IoT</span>
-          </div>
-        </a>
-        <a href="#" class="flex-item react-calc">
-          <div>
-            <h3>Calculator</h3>
-            <span>React/JavaScript/CSS</span>
-          </div>
-        </a>
-
-        <a href="#" class="flex-item pastel-puzzles">
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-
     
-        <a href="#" class="flex-item run-buddy">
-          <div>
-            <h3>Run Buddy</h3>
-            <span>HTML/CSS</span>
-          </div>
-        </a>
+    <section id="work" class="box-info">
+      <!-- Work section with Web Development projects -->
+      <header>
+        <h2>Work</h2>
+      </header>
+      <section class="Content">
+        <div class="first-projecect">
+          <a href="https://edogtheninja.github.io/Challenge-1/" target="_blank">
+            <figure>
+              <img src="./assets/images/number1.jpg" alt="First Project">
+              <figcaption>
+                <h3>Horiseon Webpage</h3>
+                <p>HTML & CSS</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
 
-      </div>
-    </section> -->
+        <!-- <div class="other-projects">
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <address>
-          <a href="tel:+16508347644">650.834.7644</a>
-          <a href="mailto:ethanhale3@gmail.com">ethanhale3@gmail.com</a>
-          <a href="#">GitHub</a>
-          <a href="#">Twitter</a>
-          <a href="#">Spotify</a>
-        </address>
-      </div>
+        </div> -->
+
+      </section>
+
     </section>
+
   </main>
+
+  <footer>
+    <!-- Contact me section with external links -->
+    <section id="contact-me" class="box-info">
+      <header>
+        <h2>Contact <br>Me</h2>
+      </header>
+      <section class="content">
+        <a href="tel:+6508347644" target="_blank" class="fa fa-phone">(650)834-7644</a>
+
+        <a href="mailto:ethanhale3@gmail.com" target="_blank" class="fa fa-envelope">ethanhale3@gmail.com</a>
+
+        <a href="https://github.com/edogtheninja/" target="_blank" class="fa fa-github">Github</a>
+
+        <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter">Twitter</a>
+      </section>
+    </section>
+
+  </footer>
+
 </body>
 
 </html>
